@@ -1,0 +1,74 @@
+.form-container{
+    width: 70%;
+    border: 1px solid rgb(11, 11, 11);
+    
+}
+
+.template-form{
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
+
+    background-image: url(/img/form/space-background.jpg);
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.form-row label{
+    font-size: 25px;
+    color: bisque;
+}
+
+.form-row input{
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.form-row input:hover{    
+    opacity: 0.7;
+}
+
+.form-row input:active{    
+    background-color: rgb(42, 165, 61);
+}
+
+.form-row input:active{    
+    background-color: brown;
+}
+
+.form-row .submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 82%;
+    background-color: orange;
+    border-radius: 25px;
+    color: rgb(159, 10, 10);
+    font-weight: bold;
+}
+
+.form-row .closed{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 380px;
+    
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+/* Form-2_______________ */
+
+.form-input{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+
+    background: url(/img/form/form-2-bkground.jpg) center repeat;
+    background-attachment: fixed;
+}
