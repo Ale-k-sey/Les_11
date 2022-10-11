@@ -13,6 +13,7 @@
     border-radius: 10px;
 
     background-image: url(/img/form/space-background.jpg);
+    opacity: 0.9;
     /* background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; */
@@ -29,16 +30,18 @@
 }
 
 .form-row input:hover{    
-    opacity: 0.7;
+    background-color: yellow;
+}
+
+.form-row input:focus{    
+    background-color: brown;
 }
 
 .form-row input:active{    
     background-color: rgb(42, 165, 61);
 }
 
-.form-row input:active{    
-    background-color: brown;
-}
+
 
 .form-row .submit{
     display: block;
@@ -67,8 +70,65 @@
     width: 50%;
     margin: 0 auto;
     padding: 10px;
-    border: 2px solid black;
+    border: 5px solid black;
+    border-radius: 15px;
 
     background: url(/img/form/form-2-bkground.jpg) center repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;    
+}
+
+h5{
+    font-weight: bold;
+}
+
+.form-item label{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* .form-item input{
+    width: 100%;
+} */
+
+.form-item input:hover{
+    background-color: aqua;
+}
+
+.form-item input:focus{
+    background-color: rgb(31, 185, 25);
+}
+
+.form-item input:active{
+    background-color: rgb(119, 5, 85);
+}
+
+.form-item .submit{
+    display: block;
+    background-color: rgb(162, 188, 33);
+
+    width: 50%;
+    margin: 10px auto;
+}
+
+.form-item .reset{
+    display: block;
+    background-color: rgb(240, 11, 56);
+
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form-item .radio{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form-item .color{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    border-radius: 50%;
+
+    border: 5px solid black;
+    overflow: hidden;
 }
